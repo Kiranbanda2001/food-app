@@ -37,6 +37,7 @@ claims.isnull().sum()
 
 # # 2. Using MySQL Connector
 
+import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
