@@ -43,8 +43,6 @@ print("SQLite connection established!")
 
 # # 2. Using MySQL Connector
 
-pip install mysql-connector-python
-
 import mysql.connector
 
 conn = mysql.connector.connect(
