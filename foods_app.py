@@ -3,6 +3,7 @@
 # # Step 1: Load data from CSV files
 
 import pandas as pd
+import mysql.connector
 
 providers = pd.read_csv("providers_data.csv")
 receivers = pd.read_csv("receivers_data.csv")
