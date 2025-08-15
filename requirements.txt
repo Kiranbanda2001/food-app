@@ -1,6 +1,0 @@
-pandas
-mysql.connector
-pymysql
-sqlalchemy
-
-
