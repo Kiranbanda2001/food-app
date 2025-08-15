@@ -10,17 +10,6 @@ receivers = pd.read_csv("receivers_data.csv")
 food_listings = pd.read_csv("food_listings_data.csv")
 claims = pd.read_csv("claims_data.csv")
 
-st.subheader("Providers")
-st.dataframe(providers)
-
-st.subheader("Receivers")
-st.dataframe(receivers)
-
-st.subheader("food_listings")
-st.dataframe(food_listings)
-
-st.subheader("claims")
-st.dataframe(claims)
 
 # # Step 2: Check null values
 
