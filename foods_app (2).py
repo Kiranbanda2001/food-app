@@ -43,7 +43,7 @@ print("SQLite connection established!")
 
 # # 2. Using MySQL Connector
 
-!pip install mysql-connector-python
+get_ipython().system('pip install mysql-connector-python')
 
 import mysql.connector
 
@@ -702,5 +702,5 @@ else:
     st.info("Please enter a city to see provider contact details.")
     
 
-!streamlit run foods_app.py
+get_ipython().system('streamlit run foods_app.py')
 
