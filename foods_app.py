@@ -2,6 +2,7 @@
 
 # # Step 1: Load data from CSV files
 
+import streamlit as st
 import pandas as pd
 
 providers = pd.read_csv("providers_data.csv")
