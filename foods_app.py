@@ -698,6 +698,3 @@ if contact_city:
 else:
     st.info("Please enter a city to see provider contact details.")
     
-
-streamlit run foods_app.py
-
