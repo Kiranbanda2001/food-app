@@ -460,7 +460,6 @@ print(df_total_quantity_by_provider, "\n")
 # Now, we'll build a Streamlit app to display the results of our SQL queries. The app will allow users to filter the data by City, Provider type, Food type, Meal type.
 
 
-%%writefile foods_app.py
 import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine
