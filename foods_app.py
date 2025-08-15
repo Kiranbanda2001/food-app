@@ -43,8 +43,6 @@ print("SQLite connection established!")
 
 # # 2. Using MySQL Connector
 
-import mysql.connector
-
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -61,8 +59,6 @@ cursor.execute("use food_data")
 
 
 # # 3. Using PyMySQL 
-
-import pymysql
 
 conn_pymysql = pymysql.connect(
     host="localhost",
@@ -457,10 +453,6 @@ print(df_total_quantity_by_provider, "\n")
 # # Step 7: Creating a Streamlit App with Filters
 # Now, we'll build a Streamlit app to display the results of our SQL queries. The app will allow users to filter the data by City, Provider type, Food type, Meal type.
 
-
-import streamlit as st
-import pandas as pd
-from sqlalchemy import create_engine
 
 # -------------------
 # DB CONNECTION
