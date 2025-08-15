@@ -4,10 +4,10 @@
 
 import pandas as pd
 
-providers = pd.read_csv("E:/providers_data.csv")
-receivers = pd.read_csv("E:/receivers_data.csv")
-food_listings = pd.read_csv("E:/food_listings_data.csv")
-claims = pd.read_csv("E:/claims_data.csv")
+providers = pd.read_csv("providers_data.csv")
+receivers = pd.read_csv("receivers_data.csv")
+food_listings = pd.read_csv("food_listings_data.csv")
+claims = pd.read_csv("claims_data.csv")
 
 providers
 receivers
