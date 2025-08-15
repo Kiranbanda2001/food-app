@@ -36,7 +36,6 @@ claims.isnull().sum()
 
 # # 1. Using SQLite3 
 
-import sqlite3
 conn = sqlite3.connect("food_data")
 cursor = conn.cursor()
 print("SQLite connection established!")
@@ -70,8 +69,6 @@ cursor_pymysql = conn_pymysql.cursor()
 print("PyMySQL connection established!")
 
 # # 4. Using SQLAlchemy 
-
-from sqlalchemy import create_engine
 
 engine = create_engine("mysql+mysqlconnector://root:12345678@localhost/food_data")
 print("sqlalchemy connection established!")
