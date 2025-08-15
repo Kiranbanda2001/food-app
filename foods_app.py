@@ -34,12 +34,6 @@ claims.isnull().sum()
 
 # Creating SQL Connection Using Different Methods
 
-# # 1. Using SQLite3 
-
-conn = sqlite3.connect("food_data")
-cursor = conn.cursor()
-print("SQLite connection established!")
-
 # # 2. Using MySQL Connector
 
 conn = mysql.connector.connect(
