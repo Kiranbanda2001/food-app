@@ -26,7 +26,7 @@ st.dataframe(claims)
 # -------------------
 # DB CONNECTION
 # -------------------
-DB_URL = "mysql+mysqlconnector://root:12345678@localhost/food_data"
+DB_URL = "mysql+mysqlconnector://root:12345678@localhost:3306/food_data"
 engine = create_engine(DB_URL)
 
 # -------------------
@@ -258,6 +258,7 @@ if contact_city:
         st.warning(f"No providers found in {contact_city}.")
 else:
     st.info("Please enter a city to see provider contact details.")
+
 
 
 
