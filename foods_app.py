@@ -88,7 +88,7 @@ query_list = [
 selected_query = st.selectbox("Select a query to run:", query_list)
 
 st.markdown(
-    "<h3 style='text-align: left; color: #336699;'>📋 query Result</h3>",
+    "<h3 style='text-align: left; color: #336699;'>📋 Query Result</h3>",
     unsafe_allow_html=True
 )
 # -------------------
@@ -289,3 +289,4 @@ if contact_city:
     else:
 
         st.warning(f"No providers found in {contact_city}.")
+
